@@ -1,0 +1,48 @@
+{
+  "name": "nconf-js",
+  "version": "1.0.0",
+  "description": "Javascript format plugin for nconf",
+  "dependencies": {
+    "nconf": "^0.8.4",
+    "@types/nconf": "^0.0.33"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.38",
+    "@types/node": "^7.0.0",
+    "@types/should": "^8.1.30",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.2.1"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --compilers ts:ts-node/register test/**/*.ts -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoneal/nconf-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yoneal/nconf-js/issues"
+  },
+  "homepage": "https://github.com/yoneal/nconf-js",
+  "author": "neal <yoneal@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "nconf",
+    "js"
+  ]
+}
