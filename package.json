@@ -1,6 +1,6 @@
 {
   "name": "nconf-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript format plugin for nconf",
   "dependencies": {
     "nconf": "^0.8.4",
