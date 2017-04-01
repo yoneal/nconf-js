@@ -4,7 +4,7 @@
   "description": "Javascript format plugin for nconf",
   "dependencies": {
     "nconf": "^0.8.4",
-    "@types/nconf": "^0.0.33"
+    "@types/nconf": "^0.0.34"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.38",
